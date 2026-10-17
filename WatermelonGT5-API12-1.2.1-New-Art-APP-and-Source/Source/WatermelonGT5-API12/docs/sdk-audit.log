@@ -1,0 +1,39 @@
+Huawei Lite Wearable project audit
+Project: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12
+Target: API 12, JS heap 512 KB
+[PASS] Lite Wearable config: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\config.json
+[INFO] Scanning configured module root(s): E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main
+[INFO] Runtime source files: JS=12 (36,758 bytes), HML=2, styles=2, images=13, audio=0
+[INFO] Source byte size is not runtime heap usage; use it only to locate large modules.
+--- JavaScript source syntax ---
+[INFO] documented Lite ES6: static module declaration (allowed in .js source; check heap/build output): 26 occurrence(s); examples: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\app.js:1, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\app.js:2, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\lite-log\core.js:49, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\lite-log\logger.js:4, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\lite-log\qr-transfer.js:25
+[INFO] Timers: create calls=2, clear calls=7. Review every lifecycle path.
+--- Sensors and vibration ---
+--- Built JavaScript syntax ---
+[INFO] Built JS path: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\build\default\intermediates\loader_out_lite\default\js\default; files=3
+[WARN] built output runtime built-in dependency: 5 occurrence(s); examples: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\build\default\intermediates\loader_out_lite\default\js\default\app.js:1, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\build\default\intermediates\loader_out_lite\default\js\default\app.js:1, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\build\default\intermediates\loader_out_lite\default\js\default\app.js:1, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\build\default\intermediates\loader_out_lite\default\js\default\app.js:1, E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\build\default\intermediates\loader_out_lite\default\js\default\app.js:1
+--- Platform API declarations ---
+[INFO] Platform imports: @system.router, @system.storage
+[INFO] Check every import against target SDK @since, syscap, permission, and Lite Wearable behavior.
+[PASS] API version: @system.router.replace earliest declaration is @since 3 (target API 12).
+[INFO] API deprecation: @system.router.replace annotation(s) at API 8.
+--- HML Lite whitelist ---
+--- Resource layout and paths ---
+[PASS] Image resource naming: 13 file(s) use English ASCII paths.
+[PASS] Checked 2 static /common resource reference(s).
+[INFO] Dynamic /common paths with HML binding: 1. Enumerate every generated path on device.
+--- Audio ---
+--- Image pool ---
+[INFO] Compressed image assets total: 118,461 bytes. This is not decoded pool usage.
+[INFO] All image assets would occupy approximately 0.26 MiB if decoded simultaneously.
+[INFO] Image 116x116, decoded~0.05 MiB, file=20,677 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_10.png
+[INFO] Image 114x114, decoded~0.05 MiB, file=20,073 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\resources\base\media\icon.png
+[INFO] Image 102x102, decoded~0.04 MiB, file=18,580 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_9.png
+[INFO] Image 88x88, decoded~0.03 MiB, file=13,167 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_8.png
+[INFO] Image 80x80, decoded~0.02 MiB, file=11,258 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\resources\base\media\icon_small.png
+[INFO] Image 76x76, decoded~0.02 MiB, file=10,054 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_7.png
+[INFO] Image 64x64, decoded~0.02 MiB, file=7,422 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_6.png
+[INFO] Image 54x54, decoded~0.01 MiB, file=5,569 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_5.png
+[INFO] Image 44x44, decoded~0.01 MiB, file=4,636 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_4.png
+[INFO] Image 36x36, decoded~0.00 MiB, file=2,593 bytes: E:\codex\work\watermelon-art-20261017\WatermelonGT5-API12\entry\src\main\js\default\common\fruit\fruit_3.png
+Audit complete. Findings are heuristic and do not replace DevEco build, Lite Wearable simulator, or target-device testing.

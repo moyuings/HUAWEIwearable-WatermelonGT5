@@ -1,0 +1,8 @@
+<stack class="screen">
+ <text class="title">瓜瓜坠落</text>
+ <text class="tag">合成大西瓜</text>
+ <text class="status">{{status}}</text>
+ <input type="button" class="enter" value="进入游戏" on:click="enter"></input>
+ <text class="hint">滑动瞄准 · 松手投放</text>
+ <text class="hint2">30 / 60 FPS 可选</text>
+</stack>

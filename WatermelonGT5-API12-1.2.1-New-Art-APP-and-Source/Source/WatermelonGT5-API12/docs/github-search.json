@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-17",
+  "scope": "GitHub source review; no hardware measurement; no third-party code or assets copied",
+  "searched": [
+    {
+      "query": "hmlitewearable",
+      "repositories": [
+        {
+          "name": "kqakqakqa/hmlitewearable_files",
+          "url": "https://github.com/kqakqakqa/hmlitewearable_files",
+          "size": 241
+        },
+        {
+          "name": "kqakqakqa/hmlitewearable_game2048",
+          "url": "https://github.com/kqakqakqa/hmlitewearable_game2048",
+          "size": 298
+        },
+        {
+          "name": "kqakqakqa/hmlitewearable_llmbalance",
+          "url": "https://github.com/kqakqakqa/hmlitewearable_llmbalance",
+          "size": 239
+        },
+        {
+          "name": "kqakqakqa/hmlitewearable_atri-mdm",
+          "url": "https://github.com/kqakqakqa/hmlitewearable_atri-mdm",
+          "size": 98
+        },
+        {
+          "name": "kqakqakqa/hmlitewearable_devdemo",
+          "url": "https://github.com/kqakqakqa/hmlitewearable_devdemo",
+          "size": 296
+        },
+        {
+          "name": "kqakqakqa/hmlitewearable_wordle",
+          "url": "https://github.com/kqakqakqa/hmlitewearable_wordle",
+          "size": 137
+        }
+      ],
+      "error": false
+    },
+    {
+      "query": "suika esp32 in:readme",
+      "repositories": [
+        {
+          "name": "chayantank/multicade",
+          "url": "https://github.com/chayantank/multicade",
+          "size": 266
+        },
+        {
+          "name": "chayantank/multicade-40",
+          "url": "https://github.com/chayantank/multicade-40",
+          "size": 159
+        },
+        {
+          "name": "R1nge/R1nge",
+          "url": "https://github.com/R1nge/R1nge",
+          "size": 92
+        },
+        {
+          "name": "tabbymarshlwio0-rgb/Awesome-Embedded",
+          "url": "https://github.com/tabbymarshlwio0-rgb/Awesome-Embedded",
+          "size": 226
+        },
+        {
+          "name": "fluteds/starred",
+          "url": "https://github.com/fluteds/starred",
+          "size": 4396
+        },
+        {
+          "name": "wangrongding/github-university",
+          "url": "https://github.com/wangrongding/github-university",
+          "size": 2768
+        }
+      ],
+      "error": false
+    },
+    {
+      "query": "watermelon m5stack in:readme",
+      "repositories": [
+        {
+          "name": "Acu1000/m5stack-watermelon-game",
+          "url": "https://github.com/Acu1000/m5stack-watermelon-game",
+          "size": 7
+        },
+        {
+          "name": "yersin13/Arcardputer",
+          "url": "https://github.com/yersin13/Arcardputer",
+          "size": 86
+        },
+        {
+          "name": "blime4/skate-god",
+          "url": "https://github.com/blime4/skate-god",
+          "size": 52
+        },
+        {
+          "name": "oliverxing2025/nostalgic-fruit-machine",
+          "url": "https://github.com/oliverxing2025/nostalgic-fruit-machine",
+          "size": 10021
+        },
+        {
+          "name": "ys0o8qy/m5stack-work-sound",
+          "url": "https://github.com/ys0o8qy/m5stack-work-sound",
+          "size": 4165
+        },
+        {
+          "name": "AayushGour/awesome-opensource",
+          "url": "https://github.com/AayushGour/awesome-opensource",
+          "size": 885
+        }
+      ],
+      "error": false
+    },
+    {
+      "query": "合成大西瓜 lvgl in:readme",
+      "repositories": [
+        {
+          "name": "qpalzm2332933171-droid/watermelon-game",
+          "url": "https://github.com/qpalzm2332933171-droid/watermelon-game",
+          "size": 24649
+        },
+        {
+          "name": "oss-awesome/puzzle-games",
+          "url": "https://github.com/oss-awesome/puzzle-games",
+          "size": 1077
+        },
+        {
+          "name": "684efs3/puzzle-games",
+          "url": "https://github.com/684efs3/puzzle-games",
+          "size": 1077
+        }
+      ],
+      "error": false
+    },
+    {
+      "query": "suika gba in:readme",
+      "repositories": [
+        {
+          "name": "karmic64/higurashi-gba-hacktools",
+          "url": "https://github.com/karmic64/higurashi-gba-hacktools",
+          "size": 20608
+        },
+        {
+          "name": "IzzyCap/gba-pong",
+          "url": "https://github.com/IzzyCap/gba-pong",
+          "size": 27731
+        },
+        {
+          "name": "karmic64/axaka-player",
+          "url": "https://github.com/karmic64/axaka-player",
+          "size": 1624
+        },
+        {
+          "name": "Aaron00000/Leegion-Server-Ring-Racers-Addons",
+          "url": "https://github.com/Aaron00000/Leegion-Server-Ring-Racers-Addons",
+          "size": 5337922
+        },
+        {
+          "name": "weimingtom/wmt_vn_study",
+          "url": "https://github.com/weimingtom/wmt_vn_study",
+          "size": 3514
+        },
+        {
+          "name": "Hengle/awesome-game-file-format-reversing",
+          "url": "https://github.com/Hengle/awesome-game-file-format-reversing",
+          "size": 2124
+        }
+      ],
+      "error": false
+    },
+    {
+      "query": "suika zepp in:readme",
+      "repositories": [],
+      "error": false
+    },
+    {
+      "query": "litewearable watermelon in:readme",
+      "repositories": [],
+      "error": false
+    },
+    {
+      "query": "轻鸿蒙 西瓜 in:readme",
+      "repositories": [],
+      "error": false
+    },
+    {
+      "query": "watermelon game language:C",
+      "repositories": [
+        {
+          "name": "RiosGabri/Watermelon_Game",
+          "url": "https://github.com/RiosGabri/Watermelon_Game",
+          "size": 14889
+        },
+        {
+          "name": "qpalzm2332933171-droid/watermelon-game",
+          "url": "https://github.com/qpalzm2332933171-droid/watermelon-game",
+          "size": 24649
+        },
+        {
+          "name": "SzyZET777/Watermelon-Game-PSP",
+          "url": "https://github.com/SzyZET777/Watermelon-Game-PSP",
+          "size": 4569
+        },
+        {
+          "name": "hoyoung777/SuikaGame",
+          "url": "https://github.com/hoyoung777/SuikaGame",
+          "size": 28357
+        },
+        {
+          "name": "BrownNPC/suika-psp",
+          "url": "https://github.com/BrownNPC/suika-psp",
+          "size": 7302
+        }
+      ],
+      "error": false
+    },
+    {
+      "query": "suika game language:C++",
+      "repositories": [
+        {
+          "name": "Clwmm/SuikaGame",
+          "url": "https://github.com/Clwmm/SuikaGame",
+          "size": 21721
+        },
+        {
+          "name": "SuikaGameSesac/suikaGameProject",
+          "url": "https://github.com/SuikaGameSesac/suikaGameProject",
+          "size": 1020788
+        },
+        {
+          "name": "NathanAung/Siv3D_SuikaGame",
+          "url": "https://github.com/NathanAung/Siv3D_SuikaGame",
+          "size": 65293
+        },
+        {
+          "name": "Sheik-info/Suika_game",
+          "url": "https://github.com/Sheik-info/Suika_game",
+          "size": 28391
+        },
+        {
+          "name": "Anas-Lees/Suika_Game",
+          "url": "https://github.com/Anas-Lees/Suika_Game",
+          "size": 5588
+        },
+        {
+          "name": "Roshantigga/Suika-Game",
+          "url": "https://github.com/Roshantigga/Suika-Game",
+          "size": 1011
+        }
+      ],
+      "error": false
+    }
+  ],
+  "refs": [
+    {
+      "repo": "Acu1000/m5stack-watermelon-game",
+      "sha": "1833cc10a980b52f76cec9fd7e139dc360564a95",
+      "date": "2025-11-19T00:18:22Z",
+      "license": null
+    },
+    {
+      "repo": "chayantank/multicade",
+      "sha": "52455d2478a9c815a496dc498348a5c28801f2e0",
+      "date": "2026-06-09T12:09:43Z",
+      "license": null
+    }
+  ],
+  "gt5Evidence": "No GT5/API12 Suika real-device evidence found in this search; absence in search is not proof none exists."
+}

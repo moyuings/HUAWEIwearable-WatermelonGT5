@@ -1,0 +1,19 @@
+{
+  "scenario": "game30",
+  "heapBytes": 524288,
+  "unchangedProductionBuild": true,
+  "compiledSha256": {
+    "app.bc": "fc08607f70684aca8ea0d57dccfe23eaeca5da587a8a17a6b1b2b473ba687927",
+    "pages/index/index.bc": "4b69572f00dbfdd16eedfb37bbd544d283e47992297b992f3e4899546b8f1fc2",
+    "pages/game/game.bc": "56d012fb81532f5547e216df89a58704affd1e47fec1f89c08726bd53aeb33d8"
+  },
+  "framesTransported": 269,
+  "ok": true,
+  "metrics": [
+    "[Console Info] SUIKA_METRICS {\"mode\":30,\"activeMs\":9996,\"loops\":296,\"submits\":259,\"loopHz\":29.6,\"submitHz\":25.9,\"p95GapUpperMs\":40,\"maxGapMs\":65,\"maxWorkMs\":12,\"discardedMs\":0,\"skipped\":3,\"maxSteps\":4,\"fieldWrites\":714,\"timer\":\"interval\",\"callbacks\":299,\"physicsMs\":115,\"displayMs\":72,\"maxPhysicsMs\":12,\"maxDisplayMs\":1,\"renderHz\":null} fruits=9"
+  ],
+  "probes": [],
+  "peakJsAllocBytes": 191712,
+  "scope": "Windows native SDK preview; transported JPEG count is NOT displayed FPS; no GT5",
+  "durationSeconds": 22
+}

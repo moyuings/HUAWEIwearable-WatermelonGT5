@@ -1,0 +1,93 @@
+<stack class="screen">
+  <text class="brand">瓜瓜坠落</text>
+  <text class="score">{{score}}</text>
+  <text class="best">{{'最高 '+best}}</text>
+  <text class="mode">{{'目标'+fps+' /循环'+frequency}}</text>
+  <image class="next" src="{{nextSrc}}"></image>
+  <text class="next-label">下一颗</text>
+  <stack class="board" onclick="tapBoard" ontouchstart="touchStart" ontouchmove="touchMove" ontouchend="touchEnd" ontouchcancel="touchCancel">
+    <div class="danger-line"></div>
+    <stack class="slot">
+    <div class="aim-line" style="left: {{aimX + aimSize / 2}}px;"></div>
+    <image src="{{aimSrc}}" show="{{panel === 0}}" style="left: {{aimX}}px; top: 4px; width: {{aimSize}}px; height: {{aimSize}}px;"></image>
+    </stack>
+    <!-- Iterate immutable keys, not the changing projection array. -->
+    <stack class="slot" for="{{slotKeys}}">
+      <image if="{{fruit($item).visible}}" src="{{fruit($item).src}}" style="left: {{fruit($item).x}}px; top: {{fruit($item).y}}px; width: {{fruit($item).size}}px; height: {{fruit($item).size}}px;"></image>
+    </stack>
+    <stack class="slot">
+    <div class="flash" show="{{flashVisible}}" style="left: {{flashX}}px; top: {{flashY}}px; width: {{flashSize}}px; height: {{flashSize}}px; border-radius: {{flashSize / 2}}px;"></div>
+    </stack>
+  </stack>
+  <text class="notice">{{notice}}</text>
+  <input class="bottom-left" type="button" value="暂停" onclick="pauseGame"></input>
+  <input class="bottom-right" type="button" value="设置" onclick="openSettings"></input>
+  <div class="shade" if="{{panel !== 0}}"></div>
+  <div class="panel" if="{{panel === 1}}">
+    <text class="panel-title">{{started ? '已暂停' : '瓜瓜坠落'}}</text>
+    <text class="subtitle">{{started ? '当前局面已保留' : '从葡萄，合成大西瓜'}}</text>
+    <input class="primary" type="button" value="{{started ? '继续游戏' : '开始游戏'}}" onclick="begin"></input>
+    <input class="secondary" type="button" value="设置 · 30 / 60 FPS" onclick="openSettings"></input>
+    <input class="secondary" type="button" value="{{started ? '重新开始' : '玩法：滑动瞄准，松手投放'}}" onclick="askRestart"></input>
+    <input class="small" type="button" value="性能记录" onclick="showMetrics"></input>
+    <text class="panel-note">{{notice}}</text>
+  </div>
+  <div class="panel" if="{{panel === 2}}">
+    <text class="panel-title">帧率设置</text>
+    <text class="subtitle">{{'当前选择 '+fps+' FPS'}}</text>
+    <input class="primary" type="button" value="30 FPS" onclick="selectFps(30)"></input>
+    <input class="secondary" type="button" value="60 FPS" onclick="selectFps(60)"></input>
+    <text class="tip">以GT5真机性能记录为准</text>
+    <input class="secondary" type="button" value="返回" onclick="closeSettings"></input>
+    <text class="panel-note">{{notice}}</text>
+  </div>
+  <div class="panel" if="{{panel === 3}}">
+    <text class="panel-title">本局结束</text>
+    <text class="subtitle">{{'分数 '+score+' · 最高 '+best}}</text>
+    <input class="primary" type="button" value="再来一局" onclick="restart"></input>
+    <input class="secondary" type="button" value="重试保存最高分" onclick="retrySave"></input>
+    <input class="secondary" type="button" value="性能记录" onclick="showMetrics"></input>
+    <input class="small" type="button" value="设置" onclick="openSettings"></input>
+    <text class="panel-note">{{notice}}</text>
+  </div>
+  <div class="panel" if="{{panel === 4}}">
+    <text class="panel-title">性能记录</text>
+    <text class="metric">{{metricA}}</text>
+    <text class="metric">{{metricB}}</text>
+    <text class="metric">{{metricC}}</text>
+    <text class="metric">{{metricD}}</text>
+    <text class="metric">{{metricE}}</text>
+    <text class="metric">{{metricF}}</text>
+    <text class="tip">数据更新不等于屏幕呈现帧率</text>
+    <input class="small" type="button" value="空载计时对照" onclick="runProbe"></input>
+    <input class="small" type="button" value="日志二维码" onclick="openLogs"></input>
+    <input class="small" type="button" value="返回" onclick="closeSettings"></input>
+  </div>
+  <div class="panel" if="{{panel === 5}}">
+    <text class="panel-title">重新开始？</text>
+    <text class="subtitle">新局会替换当前局面</text>
+    <input class="primary" type="button" value="开始新局" onclick="restart"></input>
+    <input class="secondary" type="button" value="返回" onclick="cancelRestart"></input>
+  </div>
+  <div class="qr-panel" if="{{panel === 6}}">
+    <text class="qr-title">应用日志</text>
+    <text class="qr-label">{{qrLabel}}</text>
+    <div class="qr-frame"><qrcode class="qr-code" value="{{qrValue}}" type="rect"></qrcode></div>
+    <div class="qr-nav">
+      <input class="qr-button" type="button" value="上一页" onclick="qrPrev"></input>
+      <input class="qr-button" type="button" value="下一页" onclick="qrNext"></input>
+    </div>
+    <input class="qr-close" type="button" value="返回性能记录" onclick="closeLogs"></input>
+  </div>
+  <div class="panel" if="{{panel === 7}}">
+    <text class="panel-title">空载计时对照</text>
+    <text class="subtitle">暂停物理与画面更新</text>
+    <text class="metric">{{probeA}}</text>
+    <text class="metric">{{probeB}}</text>
+    <text class="metric">{{probeC}}</text>
+    <text class="tip">两段各约4秒，可随时返回</text>
+    <text class="tip">仅测回调频率，不是显示帧率</text>
+    <input class="secondary" type="button" value="重测" onclick="runProbe"></input>
+    <input class="small" type="button" value="返回" onclick="closeProbe"></input>
+  </div>
+</stack>

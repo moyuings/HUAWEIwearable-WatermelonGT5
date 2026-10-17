@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/liyupi/daxigua",
+  "commit": "ffc582158cb0fde70b9c5cc85dea874be2c4bf17",
+  "date": "2021-08-20T06:46:28Z",
+  "license": null,
+  "files": {
+    "README.md": {
+      "sha256": "b9b083c85f61bc29819f472bb4664c024377209e9d2bcfa18d613310c42211bf",
+      "bytes": 8056
+    },
+    "index.html": {
+      "sha256": "24f4053fd85e3059788774541630fc2b425989ced2e6d623d0ce6620a66d33c8",
+      "bytes": 9443
+    },
+    "main.js": {
+      "sha256": "20199abfea74148234273dd263640df23d652fd030609e08571425b04e81fba7",
+      "bytes": 8821
+    },
+    "src/project.js": {
+      "sha256": "3f9ef2b6428ec382a52bab18f81be0773624fc131d8e3f25e0ca2b4a3372db4a",
+      "bytes": 224720
+    }
+  }
+}
