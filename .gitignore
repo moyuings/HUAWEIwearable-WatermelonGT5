@@ -1,0 +1,8 @@
+build/
+entry/build/
+.hvigor/
+.preview/
+node_modules/
+oh_modules/
+__pycache__/
+local.properties
