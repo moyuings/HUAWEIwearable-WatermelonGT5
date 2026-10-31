@@ -1,0 +1,9 @@
+PASS projection exposes no topology rebuild API
+PASS cache projection reads no reactive fields and matches uncached projection through merge/reset/reuse
+PASS fixed direct image template uses visibility for 0/6/40 active fruits
+PASS ended round rejects begin; only actual new rounds emit monotonic IDs linked to metrics
+PASS fixed 40 keys preserve identity across drop, merge, reset, reuse and destruction
+PASS advance/submit failures stop one timer, call hook once, and ignore stale callback
+PASS page loop exception displays notice and pauses without residual timer
+PASS coarse clock reports callback cadence separately without fabricating physics time
+{"passed":8,"environment":"PC Node.js v18.20.1","GT5":false,"nativeRenderingVerified":false}

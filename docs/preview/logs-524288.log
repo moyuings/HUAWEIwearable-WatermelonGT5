@@ -1,0 +1,252 @@
+[INFO][ThinPreviewer.cpp][main][102][2026-10-25T15:04:41.372]:ThinPreviewer enter the main function.
+[INFO][CommandParser.cpp][IsDebugPortValid][327][2026-10-25T15:04:41.372]:CommandParser debug port: 
+[INFO][CommandParser.cpp][IsAppNameValid][362][2026-10-25T15:04:41.373]:CommandParser app name: entry
+[INFO][CommandParser.cpp][IsResolutionValid][375][2026-10-25T15:04:41.373]:CommandParser resolution: 466 466 466 466
+[INFO][CommandParser.cpp][IsJsHeapValid][402][2026-10-25T15:04:41.373]:CommandParser js heap: 524288
+[INFO][CommandParser.cpp][IsJsHeapFlagValid][417][2026-10-25T15:04:41.373]:CommandParser is send JS heap: 1
+[INFO][CommandParser.cpp][IsScreenShapeValid][432][2026-10-25T15:04:41.373]:CommandParser screen shape: circle
+[INFO][CommandParser.cpp][IsDeviceValid][447][2026-10-25T15:04:41.373]:CommandParser device: liteWearable
+[INFO][CommandParser.cpp][IsUrlValid][458][2026-10-25T15:04:41.373]:CommandParser url: pages/game/game
+[INFO][CommandParser.cpp][IsWebSocketPortValid][667][2026-10-25T15:04:41.373]:CommandParser WebSocket listening port: 2699
+[INFO][CommandParser.cpp][IsScreenModeValid][684][2026-10-25T15:04:41.373]:CommandParser screen mode: dynamic
+[INFO][CommandParser.cpp][IsLocalSocketNameValid][728][2026-10-25T15:04:41.373]:CommandParser s: suika_8652
+[INFO][CommandParser.cpp][IsScreenDensityValid][756][2026-10-25T15:04:41.373]:CommandParser sd: 160
+[INFO][ModelManager.cpp][SetCurrentDevice][47][2026-10-25T15:04:41.373]:Start Simulator: ***
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.373]:CppTimerManager::AddCppTimer
+[ERROR][ThinPreviewer.cpp][ApplyConfig][51][2026-10-25T15:04:41.373]:No persistent properties path found.
+[ERROR][LocalSocket.cpp][ConnectToServer][37][2026-10-25T15:04:41.373]:LocalSocket::ConnectToServer SetNamedPipeHandleState failed: 87
+[ERROR][TraceTool.cpp][InitPipe][37][2026-10-25T15:04:41.373]:TraceTool::pipe connect failed
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:41.373]:Trace pipe is not prepared
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.373]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.373]:CppTimerManager::AddCppTimer
+[INFO][JsAppImpl.cpp][StartJsApp][229][2026-10-25T15:04:41.377]:Launch JS APP.
+[INFO][JsAppImpl.cpp][StartJsApp][230][2026-10-25T15:04:41.377]:Debug Server Enable: 0
+[INFO][JsAppImpl.cpp][StartJsApp][240][2026-10-25T15:04:41.377]:Launch Js app
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:41.377]:Trace pipe is not prepared
+[ACELite][INFO]:LIFECYCLE: JS Ability is launching
+[ACELite][DEBUG]:ACELite is running in JS parser mode
+[INFO][WebSocketServer.cpp][StartWebsocketListening][133][2026-10-25T15:04:41.378]:Begin to start websocket listening!
+[2026/10/25 15:04:41:3790] N: lws_create_context: LWS: 4.3.3, NET CLI SRV H1 H2 WS IPv6-absent
+PIPE {
+	"MessageType":	"imageWebsocket",
+	"args":	{
+		"port":	"2699"
+	}
+}
+WS connect ECONNREFUSED 127.0.0.1:2699
+[2026/10/25 15:04:41:3954] N: [vh|0|default|127.0.0.1|127.0.0.1|2699]: lws_socket_bind: source ads 127.0.0.1
+[ACELite][INFO]:Success to load JavaScript framework.
+[ACELite][INFO]:undefined state -> init state
+[ACELite][INFO]:init state -> ready state
+[ACELite][ERROR]:register event listener failed cause by invalid attribute name or value.
+[ACELite][ERROR]:Register event listener error.
+[INFO][WebSocketServer.cpp][ProtocolCallback][90][2026-10-25T15:04:41.395]:Engine Websocket protocol init
+[ACELite][INFO]:current state(1) -> show state
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.399]:CppTimerManager::AddCppTimer
+[ACELite][INFO]:LIFECYCLE: JS Ability will be shown
+[ACELite][ERROR]:current state(2) is invalid when changing ready state to show state.
+[INFO][JsAppImpl.cpp][StartJsApp][253][2026-10-25T15:04:41.399]:JsApp::StartJsApp launch with single page mode finished.
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.399]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.399]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.399]:CppTimerManager::AddCppTimer
+[INFO][VirtualScreenImpl.cpp][Flush][252][2026-10-25T15:04:41.419]:Get first render buffer
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:41.419]:Trace pipe is not prepared
+[INFO][WebSocketServer.cpp][CheckSid][72][2026-10-25T15:04:41.540]:Websocket path validation passed.
+[INFO][WebSocketServer.cpp][ProtocolCallback][93][2026-10-25T15:04:41.540]:Websocket client connect
+[INFO][WebSocketServer.cpp][ProtocolCallback][100][2026-10-25T15:04:41.540]:Engine websocket server writeable
+[INFO][VirtualScreenImpl.cpp][ScheduleBufferSend][135][2026-10-25T15:04:41.541]:Send first buffer finish
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:41.541]:Trace pipe is not prepared
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:41.543]:***cmd*** message:{"version":"1.0.1","command":"Language","type":"set","args":{"Language":"zh-CN"}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:41.543]:Create Command: Language
+[INFO][CommandLine.cpp][RunSet][824][2026-10-25T15:04:41.543]:Set language run finished, language is: zh-CN
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:41.543]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"Language",
+	"result":	true
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.543]:CppTimerManager::AddCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"command":	"Language",
+	"result":	true
+}
+[INFO][TimerTaskHandler.cpp][CheckLanguageChanged][93][2026-10-25T15:04:41.643]:CheckLanguageChanged value: zh-CN
+[INFO][CppTimerManager.cpp][RemoveCppTimer][41][2026-10-25T15:04:41.643]:CppTimerManager::RemoveCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:41.643]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][RemoveCppTimer][41][2026-10-25T15:04:41.745]:CppTimerManager::RemoveCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:48.044]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":333}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:48.044]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:48.044]:TouchPress(233.000000,333.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:48.044]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:48.116]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":333}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:48.116]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:48.116]:TouchRelease(233.000000,333.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:48.116]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[Console Info] SUIKA_METRICS {"mode":30,"activeMs":0,"loops":0,"submits":0,"loopHz":0,"submitHz":0,"p95GapUpperMs":0,"maxGapMs":0,"maxWorkMs":0,"discardedMs":0,"skipped":0,"maxSteps":0,"fieldWrites":0,"timer":"timeout","callbacks":0,"physicsMs":0,"displayMs":0,"callbackHz":0,"clockMinMs":0,"sameClock":0,"maxPhysicsMs":0,"maxDisplayMs":0,"renderHz":null,"round":0} fruits=0
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	250552,
+		"peakAllocBytes":	251512
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:49.146]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":350}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:49.146]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:49.146]:TouchPress(233.000000,350.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:49.146]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:49.217]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":350}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:49.217]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:49.217]:TouchRelease(233.000000,350.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:49.217]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252568,
+		"peakAllocBytes":	253944
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252568,
+		"peakAllocBytes":	253944
+	}
+}
+[ACELite][ERROR]:Invalid value. target size[0]
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:51.045]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":295,"y":339}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:51.045]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:51.045]:TouchPress(295.000000,339.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:51.045]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:51.115]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":295,"y":339}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:51.115]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:51.115]:TouchRelease(295.000000,339.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:51.115]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252872,
+		"peakAllocBytes":	253944
+	}
+}

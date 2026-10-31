@@ -1,0 +1,68 @@
+{
+  "scenario": "logs",
+  "heapBytes": 524288,
+  "unchangedProductionBuild": true,
+  "compiledSha256": {
+    "app.bc": "90cf1c89796df1af852e3e92ced7f95ced834c90942ac7d0c755b00be644f50b",
+    "pages/index/index.bc": "72ff7bcaeac6d7306428c7b27e8ac7d32ceab439eb349fb0b0a3de61cf2fafb2",
+    "pages/game/game.bc": "6d752f607e1caf15b98270a80fb05ea9156f07235a60bec945a6ef2a591c87e3"
+  },
+  "framesTransported": 10,
+  "ok": true,
+  "metrics": [
+    "[Console Info] SUIKA_METRICS {\"mode\":30,\"activeMs\":0,\"loops\":0,\"submits\":0,\"loopHz\":0,\"submitHz\":0,\"p95GapUpperMs\":0,\"maxGapMs\":0,\"maxWorkMs\":0,\"discardedMs\":0,\"skipped\":0,\"maxSteps\":0,\"fieldWrites\":0,\"timer\":\"timeout\",\"callbacks\":0,\"physicsMs\":0,\"displayMs\":0,\"callbackHz\":0,\"clockMinMs\":0,\"sameClock\":0,\"maxPhysicsMs\":0,\"maxDisplayMs\":0,\"renderHz\":null,\"round\":0} fruits=0"
+  ],
+  "parsedMetrics": [
+    {
+      "mode": 30,
+      "activeMs": 0,
+      "loops": 0,
+      "submits": 0,
+      "loopHz": 0,
+      "submitHz": 0,
+      "p95GapUpperMs": 0,
+      "maxGapMs": 0,
+      "maxWorkMs": 0,
+      "discardedMs": 0,
+      "skipped": 0,
+      "maxSteps": 0,
+      "fieldWrites": 0,
+      "timer": "timeout",
+      "callbacks": 0,
+      "physicsMs": 0,
+      "displayMs": 0,
+      "callbackHz": 0,
+      "clockMinMs": 0,
+      "sameClock": 0,
+      "maxPhysicsMs": 0,
+      "maxDisplayMs": 0,
+      "renderHz": null,
+      "round": 0,
+      "fruits": 0,
+      "outcome": 0
+    }
+  ],
+  "probes": [],
+  "restartAttempts": 0,
+  "confirmedRestarts": 0,
+  "rounds": [],
+  "peakJsAllocBytes": 253944,
+  "allocationSamples": [
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    250552,
+    252568,
+    252568,
+    252872
+  ],
+  "transportErrors": [
+    "connect ECONNREFUSED 127.0.0.1:2699"
+  ],
+  "scope": "Windows native SDK preview; transported JPEG count is NOT displayed FPS; no GT5",
+  "plannedSeconds": 11,
+  "observedSeconds": 11.031
+}

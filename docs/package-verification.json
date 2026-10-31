@@ -1,0 +1,165 @@
+{
+  "app": "WatermelonGT5-API12-default-unsigned.app",
+  "appBytes": 316701,
+  "appSha256": "618c4908e2027acc4cef8b042b10e0df74bace0231827db1f8202dd34d5fefbd",
+  "GT5Verified": false,
+  "snapshots": [
+    {
+      "path": "assets/js/default/app.bc",
+      "sourceBytes": 4134,
+      "snapshotBytes": 4092,
+      "sha256": "90cf1c89796df1af852e3e92ced7f95ced834c90942ac7d0c755b00be644f50b",
+      "independentSdkCompilerMatches": true
+    },
+    {
+      "path": "assets/js/default/pages/game/game.bc",
+      "sourceBytes": 38730,
+      "snapshotBytes": 32606,
+      "sha256": "6d752f607e1caf15b98270a80fb05ea9156f07235a60bec945a6ef2a591c87e3",
+      "independentSdkCompilerMatches": true
+    },
+    {
+      "path": "assets/js/default/pages/index/index.bc",
+      "sourceBytes": 2275,
+      "snapshotBytes": 2086,
+      "sha256": "9b0e8ffd962ede1416da9956d05b9efe9157a61d023204ea830b76892fcbde03",
+      "independentSdkCompilerMatches": true
+    }
+  ],
+  "images": [
+    {
+      "path": "assets/js/default/common/fruit/fruit_0.png.bin",
+      "packagedBytes": 1304,
+      "sha256": "5e7b8df7eee3ebc2ce561824341cd650f5dca9ab64f4cd831864761f5c36465d"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_1.png.bin",
+      "packagedBytes": 2312,
+      "sha256": "0ef26522539a64c2c02960bbf43f831645c5d75f9bf224847498c1840e005846"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_10.png.bin",
+      "packagedBytes": 53832,
+      "sha256": "d4315ac04bf6528e235dbc9e00594c56ae67a1f78ae377781aba1724702abb60"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_2.png.bin",
+      "packagedBytes": 3608,
+      "sha256": "fe7bdfcadd4eef6ff36c57c0651ae2d749b5e264fbbf9c25c61c17bb00b1af09"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_3.png.bin",
+      "packagedBytes": 5192,
+      "sha256": "db3f170001a275c4a88f19ad94dd4a27e1496772dd448f63045aff98aa9e8b2f"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_4.png.bin",
+      "packagedBytes": 7752,
+      "sha256": "0603eb7ce526a2174c2c995191142a952f7fcd44d20c7c57073e93cd17e65a4d"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_5.png.bin",
+      "packagedBytes": 11672,
+      "sha256": "b73b1aab7a82baf3acfef6a58e36635797f2b41ac0870e91a1185d15a378a8a5"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_6.png.bin",
+      "packagedBytes": 16392,
+      "sha256": "a3b20ca3d64e6f51b4fd8410bf8a1f8b5a8f1a5f978781e395c6ae52c25a5b29"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_7.png.bin",
+      "packagedBytes": 23112,
+      "sha256": "54dcc88ae616c13870bbd452d6747ef60b568f164ae017b3f7414d807acefc0e"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_8.png.bin",
+      "packagedBytes": 30984,
+      "sha256": "4debb9b72456ec734d5d57f4ba75f4ba5e5ab06c31c2a9fdfaf31bce541e0358"
+    },
+    {
+      "path": "assets/js/default/common/fruit/fruit_9.png.bin",
+      "packagedBytes": 41624,
+      "sha256": "400afada0f7d087954712dcc2ce2eeba60b83100f207f57c69aa905620478cec"
+    }
+  ],
+  "packagedConfig": {
+    "app": {
+      "apiVersion": {
+        "compileSdkType": "HarmonyOS",
+        "compatible": 50000012,
+        "compileSdkVersion": "6.1.0.105",
+        "releaseType": "Release",
+        "target": 50000012
+      },
+      "vendor": "moyu",
+      "bundleName": "com.moyu.gt5.watermelon",
+      "version": {
+        "code": 6,
+        "name": "1.3.0"
+      },
+      "appEnvironments": []
+    },
+    "deviceConfig": {},
+    "module": {
+      "deviceType": [
+        "liteWearable"
+      ],
+      "abilities": [
+        {
+          "iconId": 16777217,
+          "labelId": 16777216,
+          "name": "default",
+          "icon": "$media:icon",
+          "label": "$string:entry_MainAbility",
+          "type": "page"
+        }
+      ],
+      "mainAbility": "default",
+      "distro": {
+        "moduleType": "entry",
+        "deliveryWithInstall": true,
+        "moduleName": "entry"
+      },
+      "package": "com.example.myapplication",
+      "js": [
+        {
+          "pages": [
+            "pages/index/index",
+            "pages/game/game"
+          ],
+          "name": "default",
+          "window": {
+            "designWidth": 466,
+            "autoDesignWidth": false
+          }
+        }
+      ]
+    }
+  },
+  "launcher": {
+    "passed": true,
+    "label": "瓜瓜坠落",
+    "iconId": 16777217,
+    "iconDirectory": "assets/entry/resources/base/media",
+    "icons": [
+      {
+        "path": "assets/entry/resources/base/media/icon.png",
+        "nativePath": "assets/entry/resources/base/media/icon.png.bin",
+        "width": 114,
+        "height": 114,
+        "nativeBytes": 51992
+      },
+      {
+        "path": "assets/entry/resources/base/media/icon_small.png",
+        "nativePath": "assets/entry/resources/base/media/icon_small.png.bin",
+        "width": 80,
+        "height": 80,
+        "nativeBytes": 25608
+      }
+    ]
+  },
+  "unsigned": true,
+  "sourceLayoutPassed": true,
+  "readOnlyReferenceUnchanged": 63
+}

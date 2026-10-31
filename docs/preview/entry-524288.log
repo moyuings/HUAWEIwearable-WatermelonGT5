@@ -1,0 +1,159 @@
+[INFO][ThinPreviewer.cpp][main][102][2026-10-25T15:07:23.347]:ThinPreviewer enter the main function.
+[INFO][CommandParser.cpp][IsDebugPortValid][327][2026-10-25T15:07:23.347]:CommandParser debug port: 
+[INFO][CommandParser.cpp][IsAppNameValid][362][2026-10-25T15:07:23.348]:CommandParser app name: entry
+[INFO][CommandParser.cpp][IsResolutionValid][375][2026-10-25T15:07:23.348]:CommandParser resolution: 466 466 466 466
+[INFO][CommandParser.cpp][IsJsHeapValid][402][2026-10-25T15:07:23.348]:CommandParser js heap: 524288
+[INFO][CommandParser.cpp][IsJsHeapFlagValid][417][2026-10-25T15:07:23.348]:CommandParser is send JS heap: 1
+[INFO][CommandParser.cpp][IsScreenShapeValid][432][2026-10-25T15:07:23.348]:CommandParser screen shape: circle
+[INFO][CommandParser.cpp][IsDeviceValid][447][2026-10-25T15:07:23.348]:CommandParser device: liteWearable
+[INFO][CommandParser.cpp][IsUrlValid][458][2026-10-25T15:07:23.348]:CommandParser url: pages/index/index
+[INFO][CommandParser.cpp][IsWebSocketPortValid][667][2026-10-25T15:07:23.348]:CommandParser WebSocket listening port: 3643
+[INFO][CommandParser.cpp][IsScreenModeValid][684][2026-10-25T15:07:23.348]:CommandParser screen mode: dynamic
+[INFO][CommandParser.cpp][IsLocalSocketNameValid][728][2026-10-25T15:07:23.348]:CommandParser s: suika_26040
+[INFO][CommandParser.cpp][IsScreenDensityValid][756][2026-10-25T15:07:23.348]:CommandParser sd: 160
+[INFO][ModelManager.cpp][SetCurrentDevice][47][2026-10-25T15:07:23.348]:Start Simulator: ***
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:07:23.348]:CppTimerManager::AddCppTimer
+[ERROR][ThinPreviewer.cpp][ApplyConfig][51][2026-10-25T15:07:23.348]:No persistent properties path found.
+[ERROR][LocalSocket.cpp][ConnectToServer][37][2026-10-25T15:07:23.349]:LocalSocket::ConnectToServer SetNamedPipeHandleState failed: 87
+[ERROR][TraceTool.cpp][InitPipe][37][2026-10-25T15:07:23.349]:TraceTool::pipe connect failed
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:07:23.349]:Trace pipe is not prepared
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:07:23.349]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:07:23.349]:CppTimerManager::AddCppTimer
+[INFO][JsAppImpl.cpp][StartJsApp][229][2026-10-25T15:07:23.353]:Launch JS APP.
+[INFO][JsAppImpl.cpp][StartJsApp][230][2026-10-25T15:07:23.353]:Debug Server Enable: 0
+[INFO][JsAppImpl.cpp][StartJsApp][240][2026-10-25T15:07:23.353]:Launch Js app
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:07:23.353]:Trace pipe is not prepared
+[ACELite][INFO]:LIFECYCLE: JS Ability is launching
+[ACELite][DEBUG]:ACELite is running in JS parser mode
+[INFO][WebSocketServer.cpp][StartWebsocketListening][133][2026-10-25T15:07:23.353]:Begin to start websocket listening!
+[2026/10/25 15:07:23:3543] N: lws_create_context: LWS: 4.3.3, NET CLI SRV H1 H2 WS IPv6-absent
+PIPE {
+	"MessageType":	"imageWebsocket",
+	"args":	{
+		"port":	"3643"
+	}
+}
+[ACELite][INFO]:Success to load JavaScript framework.
+[ACELite][INFO]:undefined state -> init state
+[ACELite][INFO]:init state -> ready state
+[ACELite][INFO]:current state(1) -> show state
+[ACELite][INFO]:LIFECYCLE: JS Ability will be shown
+[ACELite][ERROR]:current state(2) is invalid when changing ready state to show state.
+[INFO][JsAppImpl.cpp][StartJsApp][253][2026-10-25T15:07:23.358]:JsApp::StartJsApp launch with single page mode finished.
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:07:23.358]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:07:23.358]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:07:23.358]:CppTimerManager::AddCppTimer
+WS connect ECONNREFUSED 127.0.0.1:3643
+[2026/10/25 15:07:23:3694] N: [vh|0|default|127.0.0.1|127.0.0.1|3643]: lws_socket_bind: source ads 127.0.0.1
+[INFO][WebSocketServer.cpp][ProtocolCallback][90][2026-10-25T15:07:23.369]:Engine Websocket protocol init
+[INFO][VirtualScreenImpl.cpp][Flush][252][2026-10-25T15:07:23.377]:Get first render buffer
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:07:23.377]:Trace pipe is not prepared
+[INFO][WebSocketServer.cpp][CheckSid][72][2026-10-25T15:07:23.513]:Websocket path validation passed.
+[INFO][WebSocketServer.cpp][ProtocolCallback][93][2026-10-25T15:07:23.513]:Websocket client connect
+[INFO][WebSocketServer.cpp][ProtocolCallback][100][2026-10-25T15:07:23.513]:Engine websocket server writeable
+[INFO][VirtualScreenImpl.cpp][ScheduleBufferSend][135][2026-10-25T15:07:23.514]:Send first buffer finish
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:07:23.514]:Trace pipe is not prepared
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:07:23.516]:***cmd*** message:{"version":"1.0.1","command":"Language","type":"set","args":{"Language":"zh-CN"}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:07:23.516]:Create Command: Language
+[INFO][CommandLine.cpp][RunSet][824][2026-10-25T15:07:23.516]:Set language run finished, language is: zh-CN
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:07:23.516]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"Language",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"Language",
+	"result":	true
+}
+[INFO][TimerTaskHandler.cpp][CheckLanguageChanged][93][2026-10-25T15:07:23.617]:CheckLanguageChanged value: zh-CN
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	20136,
+		"peakAllocBytes":	20776
+	}
+}

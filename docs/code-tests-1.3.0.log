@@ -1,0 +1,45 @@
+PASS single drop, exact ground, legal aim
+PASS collision stack and no tunneling at max fall speed
+PASS same-tier merge exactly once, no phantom slot
+PASS three simultaneous contacts cannot double-consume
+PASS watermelon is reachable and final tier never overflows
+PASS cooldown, cancelled/repeated drops, blocked mouth
+PASS 40 cap reports game over and never evicts fruit
+PASS falling fruit is not an immediate loss, sustained pile loses
+PASS projection contains only bounded drawing fields and reuses slots
+PASS deadline 30/60 cadence, fixed physics equivalence
+PASS frame switch preserves world and one scheduled loop; stale callback inert
+PASS long stall caps physics at 6 steps and reports discarded time
+PASS 10 minutes of seeded real games, dense 40-body piles finite
+PASS preferences serialize, success only on native callback, timeout ignores late callback
+PASS preference failures do not report success; disposed callbacks ignored
+SUIKA_ROUND {"round":1,"event":"start","score":0,"fruits":0}
+SUIKA_ROUND {"round":2,"event":"restart","score":0,"fruits":0}
+PASS page background resumes one loop; fast touch, settings and restart
+PASS first game paint precedes native storage; hide clears pending initialization
+SUIKA_ROUND {"round":1,"event":"start","score":0,"fruits":0}
+PASS 1000 drag moves are coalesced into the next game tick
+PASS read error 200 never overwrites an unknown old best; explicit retry recovers
+PASS old page save callback cannot release a new page saving lock
+SUIKA_ROUND {"round":1,"event":"start","score":0,"fruits":0}
+SUIKA_METRICS {"mode":30,"activeMs":32,"loops":1,"submits":1,"loopHz":31.3,"submitHz":31.3,"p95GapUpperMs":40,"maxGapMs":32,"maxWorkMs":0,"discardedMs":0,"skipped":0,"maxSteps":1,"fieldWrites":10,"timer":"interval","callbacks":2,"physicsMs":0,"displayMs":0,"callbackHz":31.3,"clockMinMs":32,"sameClock":0,"maxPhysicsMs":0,"maxDisplayMs":0,"renderHz":null,"round":1} fruits=1
+PASS paused log QR retains the current game and cleans up on background
+PASS settled world sleeps without collision checks; a new drop wakes it
+PASS sleep enabled and disabled keep the settled game position
+PASS restarting inside an active tick creates exactly one replacement timer
+PASS data update metric counts changed batches separately from loop frequency
+PASS invalid stored best is not treated as a known zero
+PASS log ring is bounded and QR pages preserve UTF-8 Chinese without splitting pairs
+PASS persistent interval uses one native timer and fractional 30/60 deadlines
+PASS 100ms dispatch gap advances real time with at most six 60Hz physics steps
+PASS physics and data-submission costs are measured independently
+PASS timer probe has two bounded phases, no parallel timers and cancellation guards
+SUIKA_ROUND {"round":1,"event":"start","score":0,"fruits":0}
+SUIKA_METRICS {"mode":30,"activeMs":160,"loops":4,"submits":4,"loopHz":25,"submitHz":25,"p95GapUpperMs":70,"maxGapMs":64,"maxWorkMs":0,"discardedMs":0,"skipped":0,"maxSteps":4,"fieldWrites":13,"timer":"interval","callbacks":5,"physicsMs":0,"displayMs":0,"callbackHz":31.3,"clockMinMs":32,"sameClock":0,"maxPhysicsMs":0,"maxDisplayMs":0,"renderHz":null,"round":1} fruits=1
+SUIKA_TIMER_PROBE {"mode":30,"requestedMs":32,"timeout":{"ms":4000,"callbacks":125,"hz":31.3,"maxGapMs":32,"minPositiveGapMs":32,"sameClock":0},"interval":{"ms":4000,"callbacks":125,"hz":31.3,"maxGapMs":32,"minPositiveGapMs":32,"sameClock":0},"renderHz":null}
+PASS game and probe are exclusive, and background cancels both without moving fruit
+PASS coarse Date timestamps are distinguishable from a low callback rate
+SUIKA_ROUND {"round":1,"event":"start","score":0,"fruits":0}
+PASS fruit repetition uses fixed reusable IDs and hides inactive images without wrappers
+PASS old timer already queued before restart cannot create a second loop
+{"groups":35,"passed":true,"benchmarks":[{"environment":"PC Node.js production physics + projection; no native renderer","initialFruits":1,"finalFruits":1,"iterations":1000,"meanMs":0.005674,"p95Ms":0.0128,"maxMs":0.2175,"renderHz":null},{"environment":"PC Node.js production physics + projection; no native renderer","initialFruits":16,"finalFruits":12,"iterations":1000,"meanMs":0.11639229999999991,"p95Ms":0.1938,"maxMs":0.6319,"renderHz":null},{"environment":"PC Node.js production physics + projection; no native renderer","initialFruits":40,"finalFruits":14,"iterations":1000,"meanMs":0.13953630000000025,"p95Ms":0.2799,"maxMs":0.7425,"renderHz":null}]}

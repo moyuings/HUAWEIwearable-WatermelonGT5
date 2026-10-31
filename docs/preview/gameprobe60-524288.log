@@ -1,0 +1,1708 @@
+[INFO][ThinPreviewer.cpp][main][102][2026-10-25T15:04:52.547]:ThinPreviewer enter the main function.
+[INFO][CommandParser.cpp][IsDebugPortValid][327][2026-10-25T15:04:52.547]:CommandParser debug port: 
+[INFO][CommandParser.cpp][IsAppNameValid][362][2026-10-25T15:04:52.548]:CommandParser app name: entry
+[INFO][CommandParser.cpp][IsResolutionValid][375][2026-10-25T15:04:52.548]:CommandParser resolution: 466 466 466 466
+[INFO][CommandParser.cpp][IsJsHeapValid][402][2026-10-25T15:04:52.548]:CommandParser js heap: 524288
+[INFO][CommandParser.cpp][IsJsHeapFlagValid][417][2026-10-25T15:04:52.548]:CommandParser is send JS heap: 1
+[INFO][CommandParser.cpp][IsScreenShapeValid][432][2026-10-25T15:04:52.548]:CommandParser screen shape: circle
+[INFO][CommandParser.cpp][IsDeviceValid][447][2026-10-25T15:04:52.548]:CommandParser device: liteWearable
+[INFO][CommandParser.cpp][IsUrlValid][458][2026-10-25T15:04:52.548]:CommandParser url: pages/game/game
+[INFO][CommandParser.cpp][IsWebSocketPortValid][667][2026-10-25T15:04:52.548]:CommandParser WebSocket listening port: 4265
+[INFO][CommandParser.cpp][IsScreenModeValid][684][2026-10-25T15:04:52.548]:CommandParser screen mode: dynamic
+[INFO][CommandParser.cpp][IsLocalSocketNameValid][728][2026-10-25T15:04:52.548]:CommandParser s: suika_3532
+[INFO][CommandParser.cpp][IsScreenDensityValid][756][2026-10-25T15:04:52.548]:CommandParser sd: 160
+[INFO][ModelManager.cpp][SetCurrentDevice][47][2026-10-25T15:04:52.548]:Start Simulator: ***
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.548]:CppTimerManager::AddCppTimer
+[ERROR][ThinPreviewer.cpp][ApplyConfig][51][2026-10-25T15:04:52.548]:No persistent properties path found.
+[ERROR][LocalSocket.cpp][ConnectToServer][37][2026-10-25T15:04:52.548]:LocalSocket::ConnectToServer SetNamedPipeHandleState failed: 87
+[ERROR][TraceTool.cpp][InitPipe][37][2026-10-25T15:04:52.548]:TraceTool::pipe connect failed
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:52.548]:Trace pipe is not prepared
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.548]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.548]:CppTimerManager::AddCppTimer
+[INFO][JsAppImpl.cpp][StartJsApp][229][2026-10-25T15:04:52.552]:Launch JS APP.
+[INFO][JsAppImpl.cpp][StartJsApp][230][2026-10-25T15:04:52.552]:Debug Server Enable: 0
+[INFO][JsAppImpl.cpp][StartJsApp][240][2026-10-25T15:04:52.552]:Launch Js app
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:52.552]:Trace pipe is not prepared
+[ACELite][INFO]:LIFECYCLE: JS Ability is launching
+[ACELite][DEBUG]:ACELite is running in JS parser mode
+[INFO][WebSocketServer.cpp][StartWebsocketListening][133][2026-10-25T15:04:52.552]:Begin to start websocket listening!
+[2026/10/25 15:04:52:5539] N: lws_create_context: LWS: 4.3.3, NET CLI SRV H1 H2 WS IPv6-absent
+PIPE {
+	"MessageType":	"imageWebsocket",
+	"args":	{
+		"port":	"4265"
+	}
+}
+WS connect ECONNREFUSED 127.0.0.1:4265
+[2026/10/25 15:04:52:5689] N: [vh|0|default|127.0.0.1|127.0.0.1|4265]: lws_socket_bind: source ads 127.0.0.1
+[ACELite][INFO]:Success to load JavaScript framework.
+[ACELite][INFO]:undefined state -> init state
+[ACELite][INFO]:init state -> ready state
+[ACELite][ERROR]:register event listener failed cause by invalid attribute name or value.
+[ACELite][ERROR]:Register event listener error.
+[INFO][WebSocketServer.cpp][ProtocolCallback][90][2026-10-25T15:04:52.569]:Engine Websocket protocol init
+[ACELite][INFO]:current state(1) -> show state
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.573]:CppTimerManager::AddCppTimer
+[ACELite][INFO]:LIFECYCLE: JS Ability will be shown
+[ACELite][ERROR]:current state(2) is invalid when changing ready state to show state.
+[INFO][JsAppImpl.cpp][StartJsApp][253][2026-10-25T15:04:52.573]:JsApp::StartJsApp launch with single page mode finished.
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.573]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.573]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.573]:CppTimerManager::AddCppTimer
+[INFO][VirtualScreenImpl.cpp][Flush][252][2026-10-25T15:04:52.594]:Get first render buffer
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:52.594]:Trace pipe is not prepared
+[INFO][WebSocketServer.cpp][CheckSid][72][2026-10-25T15:04:52.712]:Websocket path validation passed.
+[INFO][WebSocketServer.cpp][ProtocolCallback][93][2026-10-25T15:04:52.712]:Websocket client connect
+[INFO][WebSocketServer.cpp][ProtocolCallback][100][2026-10-25T15:04:52.712]:Engine websocket server writeable
+[INFO][VirtualScreenImpl.cpp][ScheduleBufferSend][135][2026-10-25T15:04:52.714]:Send first buffer finish
+[INFO][TraceTool.cpp][HandleTrace][58][2026-10-25T15:04:52.714]:Trace pipe is not prepared
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:52.714]:***cmd*** message:{"version":"1.0.1","command":"Language","type":"set","args":{"Language":"zh-CN"}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:52.714]:Create Command: Language
+[INFO][CommandLine.cpp][RunSet][824][2026-10-25T15:04:52.714]:Set language run finished, language is: zh-CN
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:52.714]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"Language",
+	"result":	true
+}
+[INFO][TimerTaskHandler.cpp][CheckLanguageChanged][93][2026-10-25T15:04:52.716]:CheckLanguageChanged value: zh-CN
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.716]:CppTimerManager::AddCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"command":	"Language",
+	"result":	true
+}
+[INFO][CppTimerManager.cpp][RemoveCppTimer][41][2026-10-25T15:04:52.817]:CppTimerManager::RemoveCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:04:52.817]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][RemoveCppTimer][41][2026-10-25T15:04:52.917]:CppTimerManager::RemoveCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241976,
+		"peakAllocBytes":	243720
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:59.217]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":236}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:59.217]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:59.217]:TouchPress(233.000000,236.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:59.217]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:04:59.284]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":236}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:04:59.284]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:04:59.284]:TouchRelease(233.000000,236.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:04:59.284]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	245152,
+		"peakAllocBytes":	245232
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:00.117]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":236}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:00.117]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:00.117]:TouchPress(233.000000,236.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:00.117]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:00.185]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":236}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:00.185]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:00.185]:TouchRelease(233.000000,236.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:00.185]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:00.217]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][RemoveCppTimer][41][2026-10-25T15:05:00.279]:CppTimerManager::RemoveCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	246312,
+		"peakAllocBytes":	246464
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:00.816]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":328}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:00.816]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:00.816]:TouchPress(233.000000,328.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:00.816]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:00.885]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":328}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:00.885]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:00.885]:TouchRelease(233.000000,328.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:00.885]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	249984,
+		"peakAllocBytes":	250184
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:01.716]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":184}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:01.716]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:01.716]:TouchPress(233.000000,184.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:01.716]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:01.785]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":184}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:01.786]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:01.786]:TouchRelease(233.000000,184.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:01.786]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:01.808]:CppTimerManager::AddCppTimer
+[Console Info] SUIKA_ROUND {"round":1,"event":"start","score":0,"fruits":0}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	251352,
+		"peakAllocBytes":	251632
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:02.717]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":136,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:02.717]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:02.717]:TouchPress(136.000000,265.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:02.717]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:02.787]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":136,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:02.787]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:02.787]:TouchRelease(136.000000,265.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:02.787]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.317]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":183,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.317]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.317]:TouchPress(183.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.317]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.368]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":184.2,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.368]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.368]:TouchMove(184.200000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.368]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.417]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":185.4,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.417]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.417]:TouchMove(185.400000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.417]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.467]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":186.6,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.467]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.467]:TouchMove(186.600000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.467]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.517]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":187.8,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.517]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.517]:TouchMove(187.800000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.517]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	241288,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.567]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":189,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.568]:Create Command: MouseMove
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.568]:TouchMove(189.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.568]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.639]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":189,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.639]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.639]:TouchRelease(189.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.639]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.917]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":226,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.917]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.918]:TouchPress(226.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.918]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:03.969]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":227.4,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:03.969]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:03.969]:TouchMove(227.400000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:03.969]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:04.017]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":228.8,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:04.017]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:04.017]:TouchMove(228.800000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:04.017]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:04.068]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":230.2,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:04.068]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:04.068]:TouchMove(230.200000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:04.068]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:04.117]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":231.6,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:04.117]:Create Command: MouseMove
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:04.117]:TouchMove(231.600000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:04.118]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:04.168]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":233,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:04.168]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:04.168]:TouchMove(233.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:04.168]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:04.237]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:04.237]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:04.237]:TouchRelease(233.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:04.237]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:04.517]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":277,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:04.517]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:04.517]:TouchPress(277.000000,265.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:04.517]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	240144,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:04.587]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":277,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:04.587]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:04.587]:TouchRelease(277.000000,265.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:04.587]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.118]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":312,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.118]:Create Command: MousePress
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.118]:TouchPress(312.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.118]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.169]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":313.8,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.169]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.169]:TouchMove(313.800000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.169]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.217]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":315.6,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.217]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.217]:TouchMove(315.600000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.217]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.267]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":317.4,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.268]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.268]:TouchMove(317.400000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.268]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.317]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":319.2,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.318]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.318]:TouchMove(319.200000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.318]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.369]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":321,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.369]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.369]:TouchMove(321.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.369]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.437]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":321,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.437]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.437]:TouchRelease(321.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.437]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	240128,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.717]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":140,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.717]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.717]:TouchPress(140.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.717]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.767]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":141,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.767]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.767]:TouchMove(141.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.767]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.817]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":142,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.817]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.817]:TouchMove(142.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.817]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.869]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":143,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.869]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.869]:TouchMove(143.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.869]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.917]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":144,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.917]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.917]:TouchMove(144.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.917]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:05.969]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":145,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:05.969]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:05.969]:TouchMove(145.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:05.969]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:06.036]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":145,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:06.036]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:06.036]:TouchRelease(145.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:06.036]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:06.316]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":183,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:06.316]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:06.316]:TouchPress(183.000000,265.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:06.316]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:06.387]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":183,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:06.387]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:06.387]:TouchRelease(183.000000,265.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:06.387]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	240304,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:06.917]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":226,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:06.918]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:06.918]:TouchPress(226.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:06.918]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:06.968]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":227.4,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:06.968]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:06.968]:TouchMove(227.400000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:06.968]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.016]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":228.8,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.016]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.016]:TouchMove(228.800000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.016]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.066]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":230.2,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.066]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.066]:TouchMove(230.200000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.066]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.117]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":231.6,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.118]:Create Command: MouseMove
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.118]:TouchMove(231.600000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.118]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.167]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":233,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.167]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.167]:TouchMove(233.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.168]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.237]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.237]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.237]:TouchRelease(233.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.237]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.517]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":269,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.517]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.517]:TouchPress(269.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.517]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	240096,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.567]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":270.6,"y":250}}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.567]:Create Command: MouseMove
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.567]:TouchMove(270.600000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.567]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.617]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":272.2,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.617]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.617]:TouchMove(272.200000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.617]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.669]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":273.8,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.669]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.669]:TouchMove(273.800000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.669]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.717]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":275.4,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.717]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.717]:TouchMove(275.400000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.717]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.765]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":277,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.765]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.765]:TouchMove(277.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.765]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:07.837]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":277,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:07.837]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:07.837]:TouchRelease(277.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:07.837]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.118]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":324,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.118]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.118]:TouchPress(324.000000,265.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.118]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.188]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":324,"y":265}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.188]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.188]:TouchRelease(324.000000,265.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.188]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	240112,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.718]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":140,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.718]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.718]:TouchPress(140.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.718]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.767]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":141,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.767]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.767]:TouchMove(141.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.767]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.817]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":142,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.817]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.817]:TouchMove(142.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.817]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.867]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":143,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.867]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.867]:TouchMove(143.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.867]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.917]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":144,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.917]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.917]:TouchMove(144.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.917]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:08.969]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":145,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:08.969]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:08.969]:TouchMove(145.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:08.969]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.036]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":145,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.036]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.036]:TouchRelease(145.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.036]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.316]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":183,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.316]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.316]:TouchPress(183.000000,250.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.316]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.368]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":184.2,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.368]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.368]:TouchMove(184.200000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.368]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.416]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":185.4,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.416]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.416]:TouchMove(185.400000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.416]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.466]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":186.6,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.466]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.466]:TouchMove(186.600000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.466]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.517]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":187.8,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.517]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.517]:TouchMove(187.800000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.517]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.565]:***cmd*** message:{"version":"1.0.1","command":"MouseMove","type":"action","args":{"x":189,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	246144,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.565]:Create Command: MouseMove
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.565]:TouchMove(189.000000,250.000000,2,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.565]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseMove",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:09.637]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":189,"y":250}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:09.637]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:09.637]:TouchRelease(189.000000,250.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:09.637]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	246144,
+		"peakAllocBytes":	253904
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	244256,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:11.718]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":170,"y":432}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:11.718]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:11.718]:TouchPress(170.000000,432.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:11.718]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:11.790]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":170,"y":432}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:11.790]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:11.790]:TouchRelease(170.000000,432.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:11.790]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CppTimerManager.cpp][RemoveCppTimer][41][2026-10-25T15:05:11.840]:CppTimerManager::RemoveCppTimer
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:12.519]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":333}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:12.519]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:12.519]:TouchPress(233.000000,333.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:12.519]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	244176,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:12.587]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":333}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:12.587]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:12.587]:TouchRelease(233.000000,333.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:12.587]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[Console Info] SUIKA_METRICS {"mode":60,"activeMs":10027,"loops":601,"submits":496,"loopHz":59.9,"submitHz":49.5,"p95GapUpperMs":20,"maxGapMs":32,"maxWorkMs":1,"discardedMs":0,"skipped":0,"maxSteps":2,"fieldWrites":1040,"timer":"interval","callbacks":630,"physicsMs":53,"displayMs":53,"callbackHz":62.8,"clockMinMs":14,"sameClock":0,"maxPhysicsMs":1,"maxDisplayMs":1,"renderHz":null,"round":1} fruits=9
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252832,
+		"peakAllocBytes":	253904
+	}
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:13.817]:***cmd*** message:{"version":"1.0.1","command":"MousePress","type":"action","args":{"x":233,"y":312}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:13.817]:Create Command: MousePress
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:13.817]:TouchPress(233.000000,312.000000,0,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:13.817]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MousePress",
+	"result":	true
+}
+[INFO][CommandLineInterface.cpp][ProcessCommandMessage][114][2026-10-25T15:05:13.887]:***cmd*** message:{"version":"1.0.1","command":"MouseRelease","type":"action","args":{"x":233,"y":312}}
+PIPE {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CommandLineFactory.cpp][CreateCommandLine][93][2026-10-25T15:05:13.887]:Create Command: MouseRelease
+[INFO][CommandLine.cpp][SetEventParams][161][2026-10-25T15:05:13.887]:TouchRelease(233.000000,312.000000,1,-1,0,2,1,0,0,[]
+)
+[ERROR][CommandLine.cpp][SendResult][66][2026-10-25T15:05:13.887]:SendResult commandResult: {
+	"version":	"1.0.1",
+	"command":	"MouseRelease",
+	"result":	true
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:13.920]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:13.937]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:13.953]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:13.969]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:13.985]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.001]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.016]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.032]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.047]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.063]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.079]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.095]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.110]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.126]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.142]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.157]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.173]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.189]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.205]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.221]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.237]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.253]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.269]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.285]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.301]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.317]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.333]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.349]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.365]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.381]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.397]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.414]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.429]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.445]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.461]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.477]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.493]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.508]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.524]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.539]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.555]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.571]:CppTimerManager::AddCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	251904,
+		"peakAllocBytes":	255448
+	}
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.587]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.602]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.619]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.635]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.651]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.667]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.683]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.698]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.714]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.729]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.745]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.761]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.777]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.792]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.808]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.823]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.839]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.855]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.871]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.887]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.903]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.919]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.935]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.951]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.967]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.982]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:14.998]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.013]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.029]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.045]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.061]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.077]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.093]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.109]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.125]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.140]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.156]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.171]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.187]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.203]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.219]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.235]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.251]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.267]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.283]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.299]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.314]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.330]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.346]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.361]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.377]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.393]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.408]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.424]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.439]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.455]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.471]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.487]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.503]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.519]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.535]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.551]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.567]:CppTimerManager::AddCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	251904,
+		"peakAllocBytes":	255448
+	}
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.583]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.599]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.614]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.630]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.647]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.663]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.679]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.694]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.710]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.725]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.741]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.757]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.773]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.789]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.805]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.821]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.837]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.853]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.869]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.885]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.901]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.916]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.932]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.947]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.963]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.979]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:15.995]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.012]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.028]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.045]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.061]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.077]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.093]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.109]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.125]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.140]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.157]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.173]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.189]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.204]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.221]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.237]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.253]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.269]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.285]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.301]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.316]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.332]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.347]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.363]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.379]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.395]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.410]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.427]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.443]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.459]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.475]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.491]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.507]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.523]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.539]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.555]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.571]:CppTimerManager::AddCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	251904,
+		"peakAllocBytes":	255448
+	}
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.587]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.603]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.619]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.635]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.651]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.667]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.683]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.699]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.715]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.731]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.747]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.763]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.779]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.795]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.811]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.827]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.843]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.859]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.874]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.891]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.907]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.923]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.939]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.954]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.971]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:16.987]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.003]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.018]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.034]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.050]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.065]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.082]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.098]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.114]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.129]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.145]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.161]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.177]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.192]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.209]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.225]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.241]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.257]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.273]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.289]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.304]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.320]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.335]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.351]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.367]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.382]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.399]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.414]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.430]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.445]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.461]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.477]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.493]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.509]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.524]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.541]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.557]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.572]:CppTimerManager::AddCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	251904,
+		"peakAllocBytes":	255448
+	}
+}
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.589]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.605]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.621]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.637]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.652]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.669]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.685]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.700]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.717]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.733]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.749]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.765]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.781]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.797]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.814]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.831]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.847]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.863]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.879]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.895]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.910]:CppTimerManager::AddCppTimer
+[INFO][CppTimerManager.cpp][AddCppTimer][35][2026-10-25T15:05:17.927]:CppTimerManager::AddCppTimer
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252088,
+		"peakAllocBytes":	255448
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252088,
+		"peakAllocBytes":	255448
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252088,
+		"peakAllocBytes":	255448
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252088,
+		"peakAllocBytes":	255448
+	}
+}
+[INFO][CppTimerManager.cpp][RemoveCppTimer][41][2026-10-25T15:05:21.938]:CppTimerManager::RemoveCppTimer
+[Console Info] SUIKA_TIMER_PROBE {"mode":60,"requestedMs":15,"timeout":{"ms":4007,"callbacks":252,"hz":62.9,"maxGapMs":17,"minPositiveGapMs":15,"sameClock":0},"interval":{"ms":4011,"callbacks":252,"hz":62.8,"maxGapMs":18,"minPositiveGapMs":15,"sameClock":0},"renderHz":null}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252656,
+		"peakAllocBytes":	255448
+	}
+}
+PIPE {
+	"version":	"1.0.1",
+	"property":	"memoryUsage",
+	"result":	{
+		"totalBytes":	524280,
+		"allocBytes":	252656,
+		"peakAllocBytes":	255448
+	}
+}

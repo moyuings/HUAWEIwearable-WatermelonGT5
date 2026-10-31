@@ -1,0 +1,188 @@
+{
+  "groups": 35,
+  "passed": true,
+  "environment": {
+    "node": "v18.20.1",
+    "platform": "win32",
+    "GT5": false
+  },
+  "results": [
+    {
+      "name": "single drop, exact ground, legal aim",
+      "passed": true
+    },
+    {
+      "name": "collision stack and no tunneling at max fall speed",
+      "passed": true
+    },
+    {
+      "name": "same-tier merge exactly once, no phantom slot",
+      "passed": true
+    },
+    {
+      "name": "three simultaneous contacts cannot double-consume",
+      "passed": true
+    },
+    {
+      "name": "watermelon is reachable and final tier never overflows",
+      "passed": true
+    },
+    {
+      "name": "cooldown, cancelled/repeated drops, blocked mouth",
+      "passed": true
+    },
+    {
+      "name": "40 cap reports game over and never evicts fruit",
+      "passed": true
+    },
+    {
+      "name": "falling fruit is not an immediate loss, sustained pile loses",
+      "passed": true
+    },
+    {
+      "name": "projection contains only bounded drawing fields and reuses slots",
+      "passed": true
+    },
+    {
+      "name": "deadline 30/60 cadence, fixed physics equivalence",
+      "passed": true
+    },
+    {
+      "name": "frame switch preserves world and one scheduled loop; stale callback inert",
+      "passed": true
+    },
+    {
+      "name": "long stall caps physics at 6 steps and reports discarded time",
+      "passed": true
+    },
+    {
+      "games": 11,
+      "actions": 1440,
+      "simulatedSeconds": 600
+    },
+    {
+      "name": "10 minutes of seeded real games, dense 40-body piles finite",
+      "passed": true
+    },
+    {
+      "name": "preferences serialize, success only on native callback, timeout ignores late callback",
+      "passed": true
+    },
+    {
+      "name": "preference failures do not report success; disposed callbacks ignored",
+      "passed": true
+    },
+    {
+      "name": "page background resumes one loop; fast touch, settings and restart",
+      "passed": true
+    },
+    {
+      "name": "first game paint precedes native storage; hide clears pending initialization",
+      "passed": true
+    },
+    {
+      "name": "1000 drag moves are coalesced into the next game tick",
+      "passed": true
+    },
+    {
+      "name": "read error 200 never overwrites an unknown old best; explicit retry recovers",
+      "passed": true
+    },
+    {
+      "name": "old page save callback cannot release a new page saving lock",
+      "passed": true
+    },
+    {
+      "name": "paused log QR retains the current game and cleans up on background",
+      "passed": true
+    },
+    {
+      "name": "settled world sleeps without collision checks; a new drop wakes it",
+      "passed": true
+    },
+    {
+      "name": "sleep enabled and disabled keep the settled game position",
+      "passed": true
+    },
+    {
+      "name": "restarting inside an active tick creates exactly one replacement timer",
+      "passed": true
+    },
+    {
+      "name": "data update metric counts changed batches separately from loop frequency",
+      "passed": true
+    },
+    {
+      "name": "invalid stored best is not treated as a known zero",
+      "passed": true
+    },
+    {
+      "name": "log ring is bounded and QR pages preserve UTF-8 Chinese without splitting pairs",
+      "passed": true
+    },
+    {
+      "name": "persistent interval uses one native timer and fractional 30/60 deadlines",
+      "passed": true
+    },
+    {
+      "name": "100ms dispatch gap advances real time with at most six 60Hz physics steps",
+      "passed": true
+    },
+    {
+      "name": "physics and data-submission costs are measured independently",
+      "passed": true
+    },
+    {
+      "name": "timer probe has two bounded phases, no parallel timers and cancellation guards",
+      "passed": true
+    },
+    {
+      "name": "game and probe are exclusive, and background cancels both without moving fruit",
+      "passed": true
+    },
+    {
+      "name": "coarse Date timestamps are distinguishable from a low callback rate",
+      "passed": true
+    },
+    {
+      "name": "fruit repetition uses fixed reusable IDs and hides inactive images without wrappers",
+      "passed": true
+    },
+    {
+      "name": "old timer already queued before restart cannot create a second loop",
+      "passed": true
+    }
+  ],
+  "benchmarks": [
+    {
+      "environment": "PC Node.js production physics + projection; no native renderer",
+      "initialFruits": 1,
+      "finalFruits": 1,
+      "iterations": 1000,
+      "meanMs": 0.005674,
+      "p95Ms": 0.0128,
+      "maxMs": 0.2175,
+      "renderHz": null
+    },
+    {
+      "environment": "PC Node.js production physics + projection; no native renderer",
+      "initialFruits": 16,
+      "finalFruits": 12,
+      "iterations": 1000,
+      "meanMs": 0.11639229999999991,
+      "p95Ms": 0.1938,
+      "maxMs": 0.6319,
+      "renderHz": null
+    },
+    {
+      "environment": "PC Node.js production physics + projection; no native renderer",
+      "initialFruits": 40,
+      "finalFruits": 14,
+      "iterations": 1000,
+      "meanMs": 0.13953630000000025,
+      "p95Ms": 0.2799,
+      "maxMs": 0.7425,
+      "renderHz": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "comparedSteps": 93984,
+  "completedGames": 24,
+  "totals": {
+    "before": {
+      "sort": 59892871,
+      "passes": 363736,
+      "contacts": 11562721
+    },
+    "after": {
+      "sort": 9295405,
+      "passes": 344107,
+      "contacts": 11555031
+    }
+  },
+  "scope": "Node host exact state equality; not GT5 frame rate, heap, or 470 freeze reproduction"
+}

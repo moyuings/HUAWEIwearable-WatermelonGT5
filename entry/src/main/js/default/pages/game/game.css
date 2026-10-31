@@ -1,0 +1,35 @@
+.screen { width: 466px; height: 466px; background-color: #070e13; }
+.brand { left: 143px; top: 28px; width: 180px; height: 36px; font-size: 28px; color: #def6cf; text-align: center; }
+.score { left: 101px; top: 64px; width: 130px; height: 43px; font-size: 36px; color: #ffffff; text-align: center; }
+.best { left: 234px; top: 71px; width: 140px; height: 30px; font-size: 20px; color: #a5b9bc; }
+.mode { left: 95px; top: 105px; width: 180px; height: 24px; font-size: 16px; color: #84b7a2; }
+.next { left: 335px; top: 102px; width: 26px; height: 26px; }
+.next-label { left: 278px; top: 105px; width: 60px; height: 24px; font-size: 15px; color: #a5b9bc; }
+.board { left: 89px; top: 126px; width: 288px; height: 264px; background-color: #162b32; border-radius: 8px; }
+.danger-line { left: 4px; top: 48px; width: 280px; height: 2px; background-color: #86535c; }
+.aim-line { top: 4px; width: 1px; height: 250px; background-color: #34504f; }
+.flash { border-width: 2px; border-color: #fff3ac; background-color: transparent; }
+.notice { left: 91px; top: 390px; width: 284px; height: 17px; font-size: 14px; color: #ffd86e; text-align: center; }
+.bottom-left { left: 140px; top: 409px; width: 86px; height: 32px; font-size: 18px; color: #152014; background-color: #b9e67a; border-radius: 16px; }
+.bottom-right { left: 240px; top: 409px; width: 86px; height: 32px; font-size: 18px; color: #d1e4d9; background-color: #27463e; border-radius: 16px; }
+.shade { width: 466px; height: 466px; background-color: #ef070e13; }
+.panel { left: 78px; top: 83px; width: 310px; height: 314px; flex-direction: column; align-items: center; justify-content: center; background-color: #14272c; border-radius: 32px; }
+.performance-panel { left: 78px; top: 53px; width: 310px; height: 360px; flex-direction: column; align-items: center; justify-content: center; background-color: #14272c; border-radius: 32px; }
+.panel-title { width: 270px; height: 38px; font-size: 30px; text-align: center; color: #e7f9d9; }
+.subtitle { width: 282px; height: 28px; margin-bottom: 10px; font-size: 18px; text-align: center; color: #a8beb7; }
+.primary { width: 238px; height: 45px; margin-bottom: 9px; font-size: 23px; background-color: #b9e67a; color: #112416; border-radius: 22px; }
+.secondary { width: 238px; height: 40px; margin-bottom: 8px; font-size: 18px; background-color: #29463e; color: #d6eed9; border-radius: 20px; }
+.small { width: 176px; height: 36px; font-size: 18px; background-color: #29463e; color: #d6eed9; border-radius: 18px; }
+.panel-note { width: 280px; height: 46px; margin-top: 8px; font-size: 16px; color: #ffd86e; text-align: center; }
+.tip { width: 286px; height: 28px; font-size: 17px; color: #a8beb7; text-align: center; }
+.metric { width: 286px; height: 25px; font-size: 16px; color: #d6eed9; text-align: center; }
+.qr-panel { left: 83px; top: 62px; width: 300px; height: 342px; flex-direction: column; align-items: center; justify-content: center; background-color: #14272c; border-radius: 28px; }
+.qr-title { width: 250px; height: 26px; font-size: 24px; text-align: center; color: #e7f9d9; }
+.qr-label { width: 210px; height: 20px; font-size: 17px; text-align: center; color: #a8beb7; }
+.qr-frame { width: 220px; height: 220px; background-color: #ffffff; align-items: center; justify-content: center; }
+.qr-code { width: 196px; height: 196px; color: #000000; background-color: #ffffff; }
+.qr-nav { width: 244px; height: 40px; flex-direction: row; justify-content: space-between; align-items: center; }
+.qr-button { width: 116px; height: 34px; font-size: 18px; color: #d6eed9; background-color: #29463e; border-radius: 17px; }
+.qr-close { width: 176px; height: 30px; font-size: 18px; color: #d6eed9; background-color: #29463e; border-radius: 15px; }
+
+.slot { left: 0px; top: 0px; width: 288px; height: 264px; background-color: transparent; }

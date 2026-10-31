@@ -1,0 +1,37 @@
+{
+  "scenario": "entry",
+  "heapBytes": 524288,
+  "unchangedProductionBuild": true,
+  "compiledSha256": {
+    "app.bc": "90cf1c89796df1af852e3e92ced7f95ced834c90942ac7d0c755b00be644f50b",
+    "pages/index/index.bc": "9b0e8ffd962ede1416da9956d05b9efe9157a61d023204ea830b76892fcbde03",
+    "pages/game/game.bc": "6d752f607e1caf15b98270a80fb05ea9156f07235a60bec945a6ef2a591c87e3"
+  },
+  "framesTransported": 1,
+  "ok": true,
+  "metrics": [],
+  "parsedMetrics": [],
+  "probes": [],
+  "restartAttempts": 0,
+  "confirmedRestarts": 0,
+  "rounds": [],
+  "peakJsAllocBytes": 20776,
+  "allocationSamples": [
+    20136,
+    20136,
+    20136,
+    20136,
+    20136,
+    20136,
+    20136,
+    20136,
+    20136,
+    20136
+  ],
+  "transportErrors": [
+    "connect ECONNREFUSED 127.0.0.1:3643"
+  ],
+  "scope": "Windows native SDK preview; transported JPEG count is NOT displayed FPS; no GT5",
+  "plannedSeconds": 11,
+  "observedSeconds": 11.028
+}

@@ -1,0 +1,43 @@
+> hvigor [32mFinished ::PreBuildApp... after 1 ms [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyPreBuild...  [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyGenerateMetadata...  [39m
+> hvigor [32mFinished :entry:default@PreCheckSyscap... after 1 ms [39m
+> hvigor [32mFinished ::DuplicateDependencyCheck... after 1 ms [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyMergeProfile...  [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyGenerateJsManifest...  [39m
+> hvigor [32mFinished :entry:default@BuildNativeWithCmake... after 1 ms [39m
+> hvigor [32mFinished :entry:default@LegacySyscapTransform... after 16 ms [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyMakePackInfo...  [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyProcessProfile...  [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyGenerateLoaderJson...  [39m
+> hvigor [32mFinished :entry:default@BuildNativeWithNinja... after 1 ms [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyProcessResource...  [39m
+> hvigor [32mUP-TO-DATE :entry:default@ProcessLibs...  [39m
+> hvigor [32mUP-TO-DATE :entry:default@LegacyCompileResource...  [39m
+> hvigor [32mUP-TO-DATE :entry:default@DoNativeStrip...  [39m
+> hvigor [32mFinished :entry:default@LegacyHookCompileResource... after 1 ms [39m
+> hvigor [32mUP-TO-DATE :entry:default@CacheNativeLibs...  [39m
+> hvigor [32mFinished :entry:default@LegacyCompileArkTS... after 2 ms [39m
+> hvigor [32mFinished :entry:default@LegacyBuildJS... after 3 ms [39m
+> hvigor [32mFinished :entry:default@LegacyProcessNodeAssets... after 1 ms [39m
+> hvigor [32mFinished :entry:default@LegacyCompileLiteJS... after 2 s 956 ms [39m
+> hvigor [32mFinished :entry:default@LegacyGenerateLiteCode... after 54 ms [39m
+> hvigor WARN: Will skip sign 'bin'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in E:\codex\work\watermelon-opt-20261025\WatermelonGT5-API12\build-profile.json5.
+> hvigor [32mFinished :entry:default@LegacySignLiteBin... after 2 ms [39m
+> hvigor [32mFinished :entry:default@LegacyPackageHap... after 442 ms [39m
+> hvigor WARN: Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in E:\codex\work\watermelon-opt-20261025\WatermelonGT5-API12\build-profile.json5.
+> hvigor [32mFinished :entry:default@SignHap... after 2 ms [39m
+> hvigor [32mFinished :entry:assembleHap... after 1 ms [39m
+> hvigor [32mUP-TO-DATE ::MakeProjectPackInfo...  [39m
+> hvigor [32mUP-TO-DATE ::ProcessProjectPrivacyProfile...  [39m
+> hvigor [32mUP-TO-DATE ::GeneratePackRes...  [39m
+> hvigor [32mFinished ::PackageApp... after 473 ms [39m
+> hvigor [32mFinished ::SignPackagesFromApp... after 2 ms [39m
+> hvigor WARN: Will skip sign 'app'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in E:\codex\work\watermelon-opt-20261025\WatermelonGT5-API12\build-profile.json5.
+> hvigor [32mFinished ::SignApp... after 2 ms [39m
+> hvigor [32mFinished ::assembleApp... after 1 ms [39m
+> hvigor [32mBUILD SUCCESSFUL in 8 s 890 ms [39m
+Source/APP proof recorded

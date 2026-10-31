@@ -1,0 +1,182 @@
+{
+  "scope": "static heuristic triage only; not build, heap or GT5 verification",
+  "target_api_input": 12,
+  "heap_kb_budget_input": 512,
+  "errors": [],
+  "candidates": [
+    {
+      "kind": "RUNTIME_REVIEW",
+      "file": "tools/lite-log-join.js",
+      "line": 5,
+      "reason": "Check Lite runtime and transpiled output; textual match only."
+    }
+  ],
+  "source_files": 19,
+  "text_bytes": 60144,
+  "png_images": [
+    {
+      "file": "artwork/user-supplied/master_512/fruit_0.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_1.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_10.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_2.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_3.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_4.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_5.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_6.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_7.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_8.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "artwork/user-supplied/master_512/fruit_9.png",
+      "width": 512,
+      "height": 512,
+      "single_rgba_estimate_bytes": 1048576
+    },
+    {
+      "file": "docs/artwork-preview.png",
+      "width": 760,
+      "height": 350,
+      "single_rgba_estimate_bytes": 1064000
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_0.png",
+      "width": 18,
+      "height": 18,
+      "single_rgba_estimate_bytes": 1296
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_1.png",
+      "width": 24,
+      "height": 24,
+      "single_rgba_estimate_bytes": 2304
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_10.png",
+      "width": 116,
+      "height": 116,
+      "single_rgba_estimate_bytes": 53824
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_2.png",
+      "width": 30,
+      "height": 30,
+      "single_rgba_estimate_bytes": 3600
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_3.png",
+      "width": 36,
+      "height": 36,
+      "single_rgba_estimate_bytes": 5184
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_4.png",
+      "width": 44,
+      "height": 44,
+      "single_rgba_estimate_bytes": 7744
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_5.png",
+      "width": 54,
+      "height": 54,
+      "single_rgba_estimate_bytes": 11664
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_6.png",
+      "width": 64,
+      "height": 64,
+      "single_rgba_estimate_bytes": 16384
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_7.png",
+      "width": 76,
+      "height": 76,
+      "single_rgba_estimate_bytes": 23104
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_8.png",
+      "width": 88,
+      "height": 88,
+      "single_rgba_estimate_bytes": 30976
+    },
+    {
+      "file": "entry/src/main/js/default/common/fruit/fruit_9.png",
+      "width": 102,
+      "height": 102,
+      "single_rgba_estimate_bytes": 41616
+    },
+    {
+      "file": "entry/src/main/resources/base/media/icon.png",
+      "width": 114,
+      "height": 114,
+      "single_rgba_estimate_bytes": 51984
+    },
+    {
+      "file": "entry/src/main/resources/base/media/icon_small.png",
+      "width": 80,
+      "height": 80,
+      "single_rgba_estimate_bytes": 25600
+    }
+  ],
+  "truncated": false,
+  "sdk_declarations_present": {},
+  "identity": {
+    "bundleName": "com.moyu.gt5.watermelon",
+    "deviceType": [
+      "liteWearable"
+    ]
+  },
+  "registered_pages": 2,
+  "limitations": [
+    "Regex matches may be comments, strings, probes or guarded helpers; review source.",
+    "No JS/HML compilation, complete component validation or native capability test.",
+    "PNG dimensions are header estimates, not decoded pool peaks; other formats not sized."
+  ]
+}

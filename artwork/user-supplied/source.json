@@ -1,0 +1,61 @@
+{
+  "source": "User-provided 合成大西瓜素材.zip",
+  "archiveSHA256": "8adba85a0931159c52866821a1fb012f84cd025e9f870496c04d351712cb54fb",
+  "masters": [
+    {
+      "file": "fruit_0.png",
+      "bytes": 147163,
+      "sha256": "52e682a5d44a36ce614e37a669c675cbac1e79a304558333389402d8a60457d3"
+    },
+    {
+      "file": "fruit_1.png",
+      "bytes": 160031,
+      "sha256": "9934cd699c9fec8755b6fa46875862aee810e426271d438053f7c6e3d737dcef"
+    },
+    {
+      "file": "fruit_10.png",
+      "bytes": 207997,
+      "sha256": "79aa8e1e058c0ea54b66b626e48a00aa741fbaf8b987639a11df45b31a745f5e"
+    },
+    {
+      "file": "fruit_2.png",
+      "bytes": 189035,
+      "sha256": "c433461305001bbdde1e316c3d200a3929d1e5c09a038f96b1103fef501031ec"
+    },
+    {
+      "file": "fruit_3.png",
+      "bytes": 176673,
+      "sha256": "65b24016be55b881dc62cb2063050286f9e834c85a652532f3b30a15cdc14f80"
+    },
+    {
+      "file": "fruit_4.png",
+      "bytes": 258209,
+      "sha256": "54abb67f2d76ba5dc50f87df4d32597ee415e0e300088b84810383ffae53cffc"
+    },
+    {
+      "file": "fruit_5.png",
+      "bytes": 191195,
+      "sha256": "5472e747d8ed96a883f540acd4820337a3c8bf25040d4e86a707c82fe446587a"
+    },
+    {
+      "file": "fruit_6.png",
+      "bytes": 214842,
+      "sha256": "99a83f7103f0b600d4613cc650d91b2029c26f46a2bb56690cf9e90e6ea63c33"
+    },
+    {
+      "file": "fruit_7.png",
+      "bytes": 230291,
+      "sha256": "05beb5018d9636e75558f5c103409ebf75e7395579fc4cf74be6cd50b8294736"
+    },
+    {
+      "file": "fruit_8.png",
+      "bytes": 226819,
+      "sha256": "50fc47cdd8858793396abcbf315ccd7176831ea6440576279ffcc134cc382c6c"
+    },
+    {
+      "file": "fruit_9.png",
+      "bytes": 237782,
+      "sha256": "728c29f8891e4cfa7f6bdc5418980f1e49ca073d4fe05736b1f082e365941002"
+    }
+  ]
+}

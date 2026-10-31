@@ -1,0 +1,98 @@
+{
+  "scenario": "gameprobe60",
+  "heapBytes": 524288,
+  "unchangedProductionBuild": true,
+  "compiledSha256": {
+    "app.bc": "90cf1c89796df1af852e3e92ced7f95ced834c90942ac7d0c755b00be644f50b",
+    "pages/index/index.bc": "72ff7bcaeac6d7306428c7b27e8ac7d32ceab439eb349fb0b0a3de61cf2fafb2",
+    "pages/game/game.bc": "6d752f607e1caf15b98270a80fb05ea9156f07235a60bec945a6ef2a591c87e3"
+  },
+  "framesTransported": 358,
+  "ok": true,
+  "metrics": [
+    "[Console Info] SUIKA_METRICS {\"mode\":60,\"activeMs\":10027,\"loops\":601,\"submits\":496,\"loopHz\":59.9,\"submitHz\":49.5,\"p95GapUpperMs\":20,\"maxGapMs\":32,\"maxWorkMs\":1,\"discardedMs\":0,\"skipped\":0,\"maxSteps\":2,\"fieldWrites\":1040,\"timer\":\"interval\",\"callbacks\":630,\"physicsMs\":53,\"displayMs\":53,\"callbackHz\":62.8,\"clockMinMs\":14,\"sameClock\":0,\"maxPhysicsMs\":1,\"maxDisplayMs\":1,\"renderHz\":null,\"round\":1} fruits=9"
+  ],
+  "parsedMetrics": [
+    {
+      "mode": 60,
+      "activeMs": 10027,
+      "loops": 601,
+      "submits": 496,
+      "loopHz": 59.9,
+      "submitHz": 49.5,
+      "p95GapUpperMs": 20,
+      "maxGapMs": 32,
+      "maxWorkMs": 1,
+      "discardedMs": 0,
+      "skipped": 0,
+      "maxSteps": 2,
+      "fieldWrites": 1040,
+      "timer": "interval",
+      "callbacks": 630,
+      "physicsMs": 53,
+      "displayMs": 53,
+      "callbackHz": 62.8,
+      "clockMinMs": 14,
+      "sameClock": 0,
+      "maxPhysicsMs": 1,
+      "maxDisplayMs": 1,
+      "renderHz": null,
+      "round": 1,
+      "fruits": 9,
+      "outcome": 0
+    }
+  ],
+  "probes": [
+    "[Console Info] SUIKA_TIMER_PROBE {\"mode\":60,\"requestedMs\":15,\"timeout\":{\"ms\":4007,\"callbacks\":252,\"hz\":62.9,\"maxGapMs\":17,\"minPositiveGapMs\":15,\"sameClock\":0},\"interval\":{\"ms\":4011,\"callbacks\":252,\"hz\":62.8,\"maxGapMs\":18,\"minPositiveGapMs\":15,\"sameClock\":0},\"renderHz\":null}"
+  ],
+  "restartAttempts": 0,
+  "confirmedRestarts": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "event": "start",
+      "score": 0,
+      "fruits": 0
+    }
+  ],
+  "peakJsAllocBytes": 255448,
+  "allocationSamples": [
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    245152,
+    246312,
+    249984,
+    251352,
+    241288,
+    240144,
+    240128,
+    240304,
+    240096,
+    240112,
+    246144,
+    246144,
+    244256,
+    244176,
+    252832,
+    251904,
+    251904,
+    251904,
+    251904,
+    252088,
+    252088,
+    252088,
+    252088,
+    252656,
+    252656
+  ],
+  "transportErrors": [
+    "connect ECONNREFUSED 127.0.0.1:4265"
+  ],
+  "scope": "Windows native SDK preview; transported JPEG count is NOT displayed FPS; no GT5",
+  "plannedSeconds": 32,
+  "observedSeconds": 32.031
+}

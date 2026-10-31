@@ -1,0 +1,83 @@
+{
+  "scenario": "game30",
+  "heapBytes": 524288,
+  "unchangedProductionBuild": true,
+  "compiledSha256": {
+    "app.bc": "90cf1c89796df1af852e3e92ced7f95ced834c90942ac7d0c755b00be644f50b",
+    "pages/index/index.bc": "72ff7bcaeac6d7306428c7b27e8ac7d32ceab439eb349fb0b0a3de61cf2fafb2",
+    "pages/game/game.bc": "6d752f607e1caf15b98270a80fb05ea9156f07235a60bec945a6ef2a591c87e3"
+  },
+  "framesTransported": 274,
+  "ok": true,
+  "metrics": [
+    "[Console Info] SUIKA_METRICS {\"mode\":30,\"activeMs\":9964,\"loops\":298,\"submits\":265,\"loopHz\":29.9,\"submitHz\":26.6,\"p95GapUpperMs\":40,\"maxGapMs\":66,\"maxWorkMs\":1,\"discardedMs\":0,\"skipped\":0,\"maxSteps\":4,\"fieldWrites\":654,\"timer\":\"interval\",\"callbacks\":299,\"physicsMs\":89,\"displayMs\":48,\"callbackHz\":30,\"clockMinMs\":32,\"sameClock\":0,\"maxPhysicsMs\":1,\"maxDisplayMs\":1,\"renderHz\":null,\"round\":1} fruits=7"
+  ],
+  "parsedMetrics": [
+    {
+      "mode": 30,
+      "activeMs": 9964,
+      "loops": 298,
+      "submits": 265,
+      "loopHz": 29.9,
+      "submitHz": 26.6,
+      "p95GapUpperMs": 40,
+      "maxGapMs": 66,
+      "maxWorkMs": 1,
+      "discardedMs": 0,
+      "skipped": 0,
+      "maxSteps": 4,
+      "fieldWrites": 654,
+      "timer": "interval",
+      "callbacks": 299,
+      "physicsMs": 89,
+      "displayMs": 48,
+      "callbackHz": 30,
+      "clockMinMs": 32,
+      "sameClock": 0,
+      "maxPhysicsMs": 1,
+      "maxDisplayMs": 1,
+      "renderHz": null,
+      "round": 1,
+      "fruits": 7,
+      "outcome": 0
+    }
+  ],
+  "probes": [],
+  "restartAttempts": 0,
+  "confirmedRestarts": 0,
+  "rounds": [
+    {
+      "round": 1,
+      "event": "start",
+      "score": 0,
+      "fruits": 0
+    }
+  ],
+  "peakJsAllocBytes": 253624,
+  "allocationSamples": [
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    241976,
+    243392,
+    246176,
+    240584,
+    245688,
+    242240,
+    241160,
+    246248,
+    242248,
+    240784,
+    246208,
+    243976,
+    252616
+  ],
+  "scope": "Windows native SDK preview; transported JPEG count is NOT displayed FPS; no GT5",
+  "plannedSeconds": 22,
+  "observedSeconds": 22.028
+}
